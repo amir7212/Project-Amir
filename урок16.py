@@ -68,7 +68,7 @@ print("Площадь прямоугольника:", rectangle.area())"""
 
 # Множественное наследие
 
-class Bird:
+"""class Bird:
     def fly(self):
         return "Птицы могут летать"
     
@@ -83,4 +83,6 @@ class Bat(Bird,Mammal):
 bat = Bat("Летучая мышь")
 
 print(bat.fly())
-print(bat.run())
+print(bat.run())"""
+
+# НЕ понл что такое абстрактный метод и как его делать
