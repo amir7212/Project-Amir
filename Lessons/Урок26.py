@@ -40,7 +40,7 @@ update="""
 UPDATE Products
 SET Name = Laptop
 WHERE Name = Laptop; 
-"""
+""" 
 
 #cursor.execute(create_table_query)
 
