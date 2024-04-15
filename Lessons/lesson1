@@ -1,0 +1,28 @@
+'''a = 5
+b= 10
+
+print("Сумма:", a+b)
+print("Разность:", a-b)
+print("Деление:", a/b )
+print("Умножение:",a*b)'''
+
+'''name = "Amir"
+city = "Karaganda"
+print(name+" "+city)
+print("Меня зовут Амир и я хочу стать программистом")'''
+
+'''t = 2
+r = 6
+pi = 3.14
+C = t*pi*r
+S = pi*r*r 
+print("Длинна окружности", C)
+print("Площадь окружности", S)'''
+
+is_sunny = True
+temperature = 25
+print("Сегодня солнечно", is_sunny)
+print("На улице жарко, больше", temperature, "градусов") 
+
+
+

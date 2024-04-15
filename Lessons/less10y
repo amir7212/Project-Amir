@@ -1,0 +1,73 @@
+"""lists = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+for row in lists:
+    for elem in row:
+        print(elem,end=" ")
+print()"""
+
+"""lists = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+for row in lists:
+    print(" ".join(map(str,row)))"""
+
+"""lists = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+poisk = int(input("Введите число для поиска: "))
+for row in lists:
+    if poisk in row:
+        print("Значение найдено")
+    else:
+        print("Значение не найдено")"""
+
+"""a = []
+n = 3
+for i in range(n):
+    a.append(list(map(int,input("Введите элементы через пробел: ").split())))
+    
+print(a)"""
+
+"""person = {
+    "address":{
+        "name":"first",
+        "street":"first street",
+        "city":"first city",
+        "zip":"12345"
+
+    },
+     "address1":{
+        "name":"second",
+        "street":"second street",
+        "city":"second city",
+        "zip":"12345"
+    }}
+for key,value in person.items():
+    print(key, ":",value)"""
+
+person = {
+    "address":{
+        "name":"first",
+        "street":"first street",
+        "city":"first city",
+        "zip":"12345"
+
+    },
+     "address1":{
+        "name":"second",
+        "street":"second street",
+        "city":"second city",
+        "zip":"12345"
+     }}
+
+person["address"]["sername"]="Johnson"
+person["address1"]["sername"]="Smith"
+for key,value in person.items():
+    print(key, "--",value)
