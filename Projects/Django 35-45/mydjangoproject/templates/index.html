@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django </title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1>Список сотрудников</h1>
+
+{%for i in data%}
+<h2>Сотрудник {{forloop.counter}}</h2>
+Фамилия: {{i.second_name}}
+<br> 
+Имя: {{i.name}} 
+<br>
+Зарплата: 
+
+{% if i.salary > 220000 %}
+<b style="color: green;"> {{i.salary}} </b>
+
+{% else %}
+<b style="color: crimson;"> {{i.salary}} </b>
+
+{% endif %}
+
+{%endfor%}
+
+</body>
+</html>
